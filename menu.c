@@ -210,6 +210,9 @@ int main() {
     printf("Enter customer's money on hand: ");
     scanf("%f", &moneyOnHand);
 
+    // Compute change
+    change = moneyOnHand - totalCost;
+    
     // Displays the receipt
     printf( "+-------------------------------------------------------------+\n"
             "| ______    _______  _______  _______  ___   _______  _______ |\n"
